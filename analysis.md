@@ -24,8 +24,11 @@ User Full Name: Becka Rolf
 ### DNS Query #1
 
 Source IP: 10.2.28.88
+
 DNS Server: 10.2.28.2
+
 Domain: easyas123-dc.easyas123.tech
+
 Query Type: A 
 
 

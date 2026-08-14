@@ -57,6 +57,7 @@ with encoded/binary data.
 
 
 SKILLS DEMONSTRATED
+
 - Network traffic analysis
 - Wireshark
 - TCP/IP analysis
@@ -67,5 +68,14 @@ SKILLS DEMONSTRATED
 - IOC identification
 - Incident response
 - Technical documentation
+
+
+
+
+
+DISCLAIMER
+This project was created for educational and portfolio purposes
+using a provided PCAP file. The findings and conclusions are based
+solely on the network traffic available within the capture.
 
 

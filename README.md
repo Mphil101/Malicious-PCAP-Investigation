@@ -18,6 +18,7 @@ compromise (IOCs), and developing incident response
 recommendations.
 
 
+  
 
 ### OBJECTIVES
 
@@ -30,10 +31,12 @@ recommendations.
 
 
 
+
 ### TOOLS
 - Wireshark
 - Git
 - GitHub
+
 
 
 
@@ -52,6 +55,7 @@ NetSupport Gateway/1.92 (Windows NT)
 
 The stream also contained `POLL` and repeated `ENCD` messages
 with encoded/binary data.
+
 
 
 

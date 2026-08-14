@@ -11,9 +11,6 @@ OVERVIEW
 This project documents a network traffic investigation performed
 using Wireshark on a PCAP associated with a suspected compromised
 Windows workstation.
-
-
-
 The investigation focused on identifying the affected host,
 analyzing network protocols, reconstructing TCP communication,
 identifying suspicious activity, extracting indicators of
@@ -46,14 +43,11 @@ The primary suspicious activity involved communication between
 the internal workstation `10.2.28.88` and the external IP
 `45.131.214.85`.
 
-
 TCP Stream 40 contained HTTP-formatted communication identifying
-
 the client as:
-`NetSupportManager/1.3`
-
+NetSupportManager/1.3
 The remote server identified itself as:
-`NetSupport Gateway/1.92 (Windows NT)`
+NetSupport Gateway/1.92 (Windows NT)
 
 The stream also contained `POLL` and repeated `ENCD` messages
 with encoded/binary data.

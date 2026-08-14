@@ -63,9 +63,13 @@ based on the available packet evidence.
 ### UDP Connection #1 — NTP
 
 Source IP: 10.2.28.88
+
 Destination IP: 10.2.28.2
+
 Source Port: 123
+
 Destination Port: 123
+
 Protocol: UDP
 
 ### Observation
@@ -79,9 +83,13 @@ synchronization.
 ### UDP Connection #2 — NetBIOS 
 
 Source IP: 10.2.28.88
+
 Destination IP: 10.2.28.255
+
 Source Port: 137
+
 Destination Port: 137
+
 Protocol: UDP
 
 ### Observation
@@ -96,9 +104,13 @@ and local network discovery.
 UDP Connection #3 — SSDP/UPnP
 
 Source IP: 10.2.28.88
+
 Destination IP: 239.255.255.250
+
 Source Port: 57054
+
 Destination Port: 1900
+
 Protocol: UDP
 
 ### Observation
@@ -112,10 +124,15 @@ and service discovery.
 ### UDP Connection #4 — CLDAP
 
 Source IP: 10.2.28.88
+
 Destination IP: 10.2.28.2
+
 Source Port: 58447
+
 Destination Port: 389
+
 Protocol: CLDAP
+
 Info: SearchRequest(97)<Root>baseObject
 
 ### Observation
@@ -132,11 +149,17 @@ Windows domain activity.
 ### UDP Connection #5 — QUIC
 
 Source IP: 10.2.28.88
+
 Destination IP: 23.205.110.136
+
 Source Port: 52124
+
 Destination Port: 443
+
 Protocol: QUIC
+
 QUIC Version: IETF
+
 Server Name Indication (SNI):
 www.bing.com
 
@@ -153,11 +176,13 @@ packet contained the SNI www.bing.com.
 ### Connection 
 
 Internal Host: 10.2.28.88
+
 Remote Host: 45.131.214.85
 
 Protocol: TCP
 
 Internal Source Port: 51912
+
 Remote Destination Port: 443
 
 ### TCP Handshake
@@ -196,7 +221,9 @@ The TCP three-way handshake was successfully completed between 10.2.28.88:51912 
 ### TLS Connection — 20.189.173.2
 
 Source IP: 10.2.28.88:54552
+
 Destination IP: 20.189.173.2:443
+
 Protocol: TLSv1.2
 
 Server Name Indication (SNI):
@@ -215,10 +242,13 @@ currently considered an indicator of compromise.
 ### TLS Connection — 20.190.157.9
 
 Source IP : 10.2.28.88:54559
+
 Destination IP: 20.190.157.9:443
+
 Protocol: TLS
 
 Server Name Indication (SNI):
+
 login.microsoftonline.com
 
 ### Observation
@@ -239,9 +269,13 @@ Destination IP: 45.131.214.85
 Destination Port: 443
 
 Method: POST
+
 Host: 45.131.214.85
+
 Request URI: /fakeurl.htm
+
 User-Agent: NetSupportManager/1.3
+
 Content-Length: 22 bytes
 
 ### Observation
@@ -263,6 +297,7 @@ communication.
 ### HTTP Response — TCP Stream 40
 
 Source: 45.131.214.85
+
 Destination: 10.2.28.88
 
 Status: HTTP/1.1 200 OK
@@ -336,8 +371,11 @@ the internal workstation.
 
 ### Internal Host
 - IP: 10.2.28.88
+  
 - Hostname: DESKTOP-TEYQ2NR
+  
 - User: brolf
+  
 - MAC: 14:b3:1f:2d:ce:69
 
   ![Finding machine](<screenshots/Screenshot of using netBios to find victim's compromised machine.png>)
@@ -353,6 +391,7 @@ the internal workstation.
 
 ### NetSupport Identifiers
 - NetSupportManager/1.3
+  
 - NetSupport Gateway/1.92
 
 ### URI

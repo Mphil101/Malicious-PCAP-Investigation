@@ -4,8 +4,7 @@
 
 
 
-Overview
-
+OVERVIEW
 
 
 
@@ -23,136 +22,55 @@ recommendations.
 
 
 
-Objectives
+OBJECTIVES
 
 - Identify the potentially compromised workstation
 - Analyze DNS, UDP, TCP, HTTP, TLS, and QUIC traffic
 - Reconstruct suspicious TCP communication
 - Identify potential indicators of compromise
-
-\- Build an incident timeline
-
-\- Develop recommended incident response actions
+- Build an incident timeline
+- Develop recommended incident response actions
 
 
 
-\## Tools
+TOOLS
+- Wireshark
+- Git
+- GitHub
 
 
 
-\- Wireshark
-
-\- Git
-
-\- GitHub
-
-
-
-\## Key Finding
-
-
+KEY FINDINGS
 
 The primary suspicious activity involved communication between
-
 the internal workstation `10.2.28.88` and the external IP
-
 `45.131.214.85`.
-
 
 
 TCP Stream 40 contained HTTP-formatted communication identifying
 
 the client as:
-
-
-
 `NetSupportManager/1.3`
 
-
-
 The remote server identified itself as:
-
-
-
 `NetSupport Gateway/1.92 (Windows NT)`
 
-
-
 The stream also contained `POLL` and repeated `ENCD` messages
-
 with encoded/binary data.
 
 
 
-\## Key Indicators
 
+SKILLS DEMONSTRATED
+- Network traffic analysis
+- Wireshark
+- TCP/IP analysis
+- DNS analysis
+- HTTP analysis
+- TLS/SNI analysis
+- TCP stream reconstruction
+- IOC identification
+- Incident response
+- Technical documentation
 
-
-| Type | Indicator |
-
-|---|---|
-
-| Internal IP | `10.2.28.88` |
-
-| External IP | `45.131.214.85` |
-
-| Domain | `easyas123-dc.easyas123.tech` |
-
-| User-Agent | `NetSupportManager/1.3` |
-
-| Server | `NetSupport Gateway/1.92` |
-
-| URI | `/fakeurl.htm` |
-
-
-
-\## Investigation
-
-
-
-The detailed investigation and packet analysis are documented
-
-in \[analysis.md](analysis.md).
-
-
-
-\## Skills Demonstrated
-
-
-
-\- Network traffic analysis
-
-\- Wireshark
-
-\- TCP/IP analysis
-
-\- DNS analysis
-
-\- HTTP analysis
-
-\- TLS/SNI analysis
-
-\- QUIC analysis
-
-\- TCP stream reconstruction
-
-\- IOC identification
-
-\- Incident response
-
-\- Technical documentation
-
-
-
-\## Disclaimer
-
-
-
-The PCAP alone does not establish the complete scope or initial
-
-infection vector. Additional endpoint, authentication, and
-
-system-log analysis would be required to determine the full
-
-impact.
 

@@ -4,7 +4,7 @@
 
 
 
-OVERVIEW
+### OVERVIEW
 
 
 
@@ -19,7 +19,7 @@ recommendations.
 
 
 
-OBJECTIVES
+### OBJECTIVES
 
 - Identify the potentially compromised workstation
 - Analyze DNS, UDP, TCP, HTTP, TLS, and QUIC traffic
@@ -30,14 +30,14 @@ OBJECTIVES
 
 
 
-TOOLS
+### TOOLS
 - Wireshark
 - Git
 - GitHub
 
 
 
-KEY FINDINGS
+### KEY FINDINGS
 
 The primary suspicious activity involved communication between
 the internal workstation `10.2.28.88` and the external IP
@@ -56,7 +56,7 @@ with encoded/binary data.
 
 
 
-SKILLS DEMONSTRATED
+### SKILLS DEMONSTRATED
 
 - Network traffic analysis
 - Wireshark
@@ -78,7 +78,7 @@ SKILLS DEMONSTRATED
 
 
 
-DISCLAIMER
+### DISCLAIMER
 
 This project was created for educational and portfolio purposes
 using a provided PCAP file. The findings and conclusions are based

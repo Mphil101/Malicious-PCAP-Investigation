@@ -2,45 +2,33 @@
 
 
 
-\# Malicious PCAP Investigation
 
 
+Overview
 
-\## Overview
 
 
 
 This project documents a network traffic investigation performed
-
 using Wireshark on a PCAP associated with a suspected compromised
-
 Windows workstation.
 
 
 
 The investigation focused on identifying the affected host,
-
 analyzing network protocols, reconstructing TCP communication,
-
 identifying suspicious activity, extracting indicators of
-
 compromise (IOCs), and developing incident response
-
 recommendations.
 
 
 
-\## Objectives
+Objectives
 
-
-
-\- Identify the potentially compromised workstation
-
-\- Analyze DNS, UDP, TCP, HTTP, TLS, and QUIC traffic
-
-\- Reconstruct suspicious TCP communication
-
-\- Identify potential indicators of compromise
+- Identify the potentially compromised workstation
+- Analyze DNS, UDP, TCP, HTTP, TLS, and QUIC traffic
+- Reconstruct suspicious TCP communication
+- Identify potential indicators of compromise
 
 \- Build an incident timeline
 

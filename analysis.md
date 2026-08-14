@@ -13,15 +13,19 @@ software.
 ## 1. Victim Identification
 
 IP Address: 10.2.28.88
+
 MAC Address:14:b3:1f:2d:ce:69
+
 Hostname: DESKTOP-TEYQ2NR 
+
 User Account: brolf
+
 User Full Name: Becka Rolf
 
 
 ![IP:10.2.28.88 packets](<screenshots/Screenshot of packets in the victim machine.png>)
 
-*Figure:Went through endpoints in Wireshark to find any suspicious packet and IP information*
+*Figure: Went through endpoints in Wireshark to find any suspicious packet and IP information*
 
   
 

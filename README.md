@@ -46,6 +46,7 @@ the internal workstation `10.2.28.88` and the external IP
 TCP Stream 40 contained HTTP-formatted communication identifying
 the client as:
 NetSupportManager/1.3
+
 The remote server identified itself as:
 NetSupport Gateway/1.92 (Windows NT)
 

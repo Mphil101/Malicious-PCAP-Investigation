@@ -74,6 +74,7 @@ SKILLS DEMONSTRATED
 
 
 DISCLAIMER
+
 This project was created for educational and portfolio purposes
 using a provided PCAP file. The findings and conclusions are based
 solely on the network traffic available within the capture.

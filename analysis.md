@@ -21,7 +21,9 @@ User Full Name: Becka Rolf
 
 ![IP:10.2.28.88 packets](<screenshots/Screenshot of packets in the victim machine.png>)
 
-*Went through endpoints to find any suspicious packet and IP information*
+* Figure:Went through endpoints in Wireshark to find any suspicious packet and IP information*
+
+  
 
 ## 2. DNS Analysis
 
@@ -166,9 +168,12 @@ Remote Destination Port: 443
    10.2.28.88:51912 → 45.131.214.85:443
 
 
+
 ![TCP Three-Way Handshake](<screenshots/Screenshot of tcp handshake.png>)
+
 *Wireshark showing the TCP three-way handshake between
 10.2.28.88 and 45.131.214.85.*
+
 
 Application Data:
 - Payload size: 440 bytes

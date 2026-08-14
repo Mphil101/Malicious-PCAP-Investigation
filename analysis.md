@@ -19,7 +19,7 @@ User Account: brolf
 User Full Name: Becka Rolf
 
 
-![IP:10.2.28.88 packets](<screenshots/Screenshot of packets in the victim's machine.png>)
+![IP:10.2.28.88 packets](<screenshots/Screenshot of packets in the victim machine.png>)
 
 *Went through endpoints to find any suspicious packet and IP information*
 
